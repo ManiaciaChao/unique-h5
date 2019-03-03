@@ -1,0 +1,87 @@
+.StartPage,
+.MenuPage {
+    margin-top: 16px;
+    color: #fff;
+}
+
+.StartPage li {
+    color: rgb(255, 255, 255);
+    list-style: none;
+    font-size: 6vw;
+    line-height: 10vh;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.StartPage img {
+    animation: breath 4s ease-in-out infinite;
+    width: 20vw;
+    padding: 10vw;
+}
+
+.MenuPageTitle {
+    /* display: inline-flex; */
+    padding: 0 10vw;
+}
+
+.MenuPageTitle img {
+    /* flex: 1; */
+    float: left;
+    animation: breath 4s ease-in-out infinite;
+    height: 12vw;
+}
+
+.MenuPageTitle h2 {
+    font-size: 20px;
+    line-height: 12vw;
+    font-weight: 100;
+}
+
+.MenuPageItem {
+    /* height: 15vh; */
+    background: #ffffff10;
+    margin: 6vw 10vw;
+    border-radius: 20px;
+    /* padding: 5vw 0; */
+}
+
+.MenuPageItem h1 {
+    margin: 0;
+}
+
+.MenuPageItem p {
+    font-size: 16px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-bottom: 16px;
+    /* overflow: hidden; */
+}
+
+.MenuPageItem h1,
+p {
+    font-weight: 300;
+    text-align: left;
+    padding: 2px;
+    margin: 8px 28px;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes breath {
+    0% {
+        opacity: 0.2;
+    }
+    50% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 0.2;
+    }
+}

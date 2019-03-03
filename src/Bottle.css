@@ -1,6 +1,7 @@
 .Bottle {
     /* width: 100%; */
     /* margin: 32px; */
+    position: absolute;
 }
 
 .Bottle img {
@@ -38,7 +39,7 @@
     width: 100%;
     margin: 0;
     height: 50vh;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     background-color: rgb(96, 96, 117);
     z-index: -5;
