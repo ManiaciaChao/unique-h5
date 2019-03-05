@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 
+# resources
+
+/src/animate
+
 # testing
 /coverage
 
