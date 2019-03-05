@@ -2,6 +2,7 @@
     "name": "unique-h5",
     "version": "0.1.0",
     "private": true,
+    "homepage": "https://maniaciachao.github.io/unique-h5/build",
     "dependencies": {
         "react": "^16.8.3",
         "react-dom": "^16.8.3",
