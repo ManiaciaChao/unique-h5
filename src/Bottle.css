@@ -1,7 +1,39 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 .Bottle {
     /* width: 100%; */
     /* margin: 32px; */
     position: absolute;
+    width: 100%;
+    /* margin: 32px; */
+    overflow: hidden;
+    height: 80vh;
+}
+
+.BottleInfo {
+    position: absolute;
+    animation: fadeIn 8s ease-in-out 1;
+    padding-top: 70vh;
+    z-index: 5;
+    width: 100%;
+}
+
+.BottleInfoText {
+    color: white;
+    width: 90%;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    margin: 5%;
+    padding: 4px;
+    box-shadow: 1px 1px 8px 0px #00000075;
+    /* border: 1px solid #fff; */
 }
 
 .Bottle img {
@@ -29,17 +61,19 @@
 }
 
 .BottleTable {
+    animation: fadeIn 4s ease-in-out 1;
     margin: 64px 0 0 0;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     overflow: hidden;
+    z-index: -5;
 }
 
 .BottleTableBg {
-    width: 100%;
+    position: fixed;
+    width: 100vw;
     margin: 0;
     height: 50vh;
-    position: fixed;
     bottom: 0;
     background-color: rgb(96, 96, 117);
     z-index: -5;
