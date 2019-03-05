@@ -1,0 +1,21 @@
+{
+  "main.css": "/unique-h5/build/static/css/main.4ae16a3f.chunk.css",
+  "main.js": "/unique-h5/build/static/js/main.2bbba491.chunk.js",
+  "main.js.map": "/unique-h5/build/static/js/main.2bbba491.chunk.js.map",
+  "runtime~main.js": "/unique-h5/build/static/js/runtime~main.e4735eea.js",
+  "runtime~main.js.map": "/unique-h5/build/static/js/runtime~main.e4735eea.js.map",
+  "static/js/2.9f5caec2.chunk.js": "/unique-h5/build/static/js/2.9f5caec2.chunk.js",
+  "static/js/2.9f5caec2.chunk.js.map": "/unique-h5/build/static/js/2.9f5caec2.chunk.js.map",
+  "index.html": "/unique-h5/build/index.html",
+  "precache-manifest.3dba8de4b16daab34e51ef4de113daae.js": "/unique-h5/build/precache-manifest.3dba8de4b16daab34e51ef4de113daae.js",
+  "service-worker.js": "/unique-h5/build/service-worker.js",
+  "static/css/main.4ae16a3f.chunk.css.map": "/unique-h5/build/static/css/main.4ae16a3f.chunk.css.map",
+  "static/media/bottle@2x.png": "/unique-h5/build/static/media/bottle@2x.20afd0a0.png",
+  "static/media/crystal.gif": "/unique-h5/build/static/media/crystal.ecb56567.gif",
+  "static/media/layer1.png": "/unique-h5/build/static/media/layer1.d8e780c9.png",
+  "static/media/layer2.png": "/unique-h5/build/static/media/layer2.f188848e.png",
+  "static/media/layer3.png": "/unique-h5/build/static/media/layer3.b2cb41fe.png",
+  "static/media/layer4.png": "/unique-h5/build/static/media/layer4.7b4f49b4.png",
+  "static/media/layer5.png": "/unique-h5/build/static/media/layer5.bbb3ec1e.png",
+  "static/media/romzicon_home-512.png": "/unique-h5/build/static/media/romzicon_home-512.c4693e22.png"
+}
